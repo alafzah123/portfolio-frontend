@@ -2882,6 +2882,9 @@ section {
   .main-heading-div p {
     font-size: 0.9rem !important;
   }
+  .service-details-header-title {
+    font-size: 2rem !important;
+  }
 }
 
 /* project */
