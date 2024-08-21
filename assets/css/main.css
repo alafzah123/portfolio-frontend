@@ -2843,29 +2843,32 @@ section {
 .color-red {
   color: var(--color-primary);
 }
+.busisness-domain-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+}
 .busisness-domain-ul {
+  display: flex; 
+  white-space: nowrap;
+  animation: scroll-horizontal 10s linear infinite; 
   color: white;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  justify-content: start;
-  margin-top: 3rem;
-  flex-wrap: wrap;
-  padding: 0;
-  padding-left: 1.5rem;
 }
+
 .busisness-domain-ul li {
-  justify-self: start;
+  display: inline-block; /* Display items in a line */
+  margin-right: 20px; /* Space between items */
+  font-size: 1.4rem;
 }
-@media (max-width: 768px) {
-  .busisness-domain-ul {
-    padding-top: 3rem;
-    display: flex;
-    width: 100%;
-    max-width: 270px;
-    margin: 0 auto;
-  }
+
+@keyframes scroll-horizontal {
+   0% {
+      transform: translateX(100%); /* Start from right */
+    }
+    100% {
+      transform: translateX(-1340px); /* Move to left */
+    }
 }
 @media (max-width: 387px) {
   .main-heading-div h2 {
@@ -2878,6 +2881,9 @@ section {
   }
   .main-heading-div p {
     font-size: 0.9rem !important;
+  }
+  .service-details-header-title {
+    font-size: 2rem !important;
   }
 }
 
@@ -2929,4 +2935,23 @@ section {
   font-weight: 900;
   text-align: center;
   font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .service-details--card .service-details--card-footer {
+    margin: 0 2rem;
+  }
+  .service-details--card
+    .service-details--card-header
+    .service-details-description {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .service-details-section-class .container {
+    padding: 0;
+  }
+  .service-details--card-footer > div ul {
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
