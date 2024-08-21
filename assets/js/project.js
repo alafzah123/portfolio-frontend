@@ -94,7 +94,7 @@ function generateTestimonial(testimonials, container) {
           alt=""
         />
         <h3>${name}</h3>
-        <h4>Ceo &amp; ${position}</h4>
+        <h4> ${position}</h4>
         <div class="stars">
           ${starsHTML}
         </div>
