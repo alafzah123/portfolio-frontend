@@ -52,8 +52,8 @@
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
+     <!-- ======= Header ======= -->
+     <header id="header" class="header d-flex align-items-center">
       <div
         class="container-fluid container-xl d-flex align-items-center justify-content-between"
       >
@@ -62,17 +62,15 @@
           <!-- <img src="assets/img/logo.png" alt=""> -->
           <div class="" style="display: flex; gap: 1rem; align-items: center">
             <img
-              src="./assets/img/logoImage.png"
-              alt=""
-              width="36px"
-              height="40px"
-            />
-            <img
-              src="./assets/img/logoText.png"
-              alt=""
-              width="137px"
-              height="40px"
-            />
+            src="./assets/img/logoImage.png"
+            alt=""
+            class="logo-image-navbar"
+          />
+          <img
+            src="./assets/img/logoText.png"
+            alt=""
+            height="50px"
+          />
           </div>
         </a>
 
@@ -80,12 +78,12 @@
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li class="dropdown">
-              <a href="#" class="active"
+              <a href="#"
                 ><span>Service Details</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
@@ -775,158 +773,153 @@
     </main>
     <!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-      <div class="footer-content position-relative">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-info">
-                <div
-                  class=""
-                  style="
-                    display: flex;
-                    gap: 1rem;
-                    align-items: center;
-                    margin-bottom: 1.5rem;
-                  "
-                >
-                  <img
-                    src="./assets/img/logoImage.png"
-                    alt=""
-                    width="36px"
-                    height="40px"
-                  />
-                  <img
-                    src="./assets/img/logoText.png"
-                    alt=""
-                    width="137px"
-                    height="40px"
-                  />
-                </div>
-                <p>
-                  Building No 94, Othman Bin Affan Street 180, <br />
-                  Doha, Qatar, PO Box No:36258
-                  <br /><br />
-                  <strong>Phone:</strong> +974 66908915<br />
-                  <strong>Phone:</strong> +974 30806490<br />
-                  <strong>Email:</strong> info@al-afzahgroup.com<br />
-                </p>
-                <div class="social-links d-flex mt-3">
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-twitter"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-facebook"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-instagram"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-linkedin"></i
-                  ></a>
-                </div>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <div
+                class=""
+                style="
+                  display: flex;
+                  gap: 1rem;
+                  align-items: center;
+                  margin-bottom: 1.5rem;
+                "
+              >
+              <img
+              src="./assets/img/logoImage.png"
+              alt=""
+             
+              height="70px"
+            />
+            <img
+              src="./assets/img/logoText.png"
+              alt=""
+          
+              height="60px"
+            />
+              </div>
+              <p>
+                Building No 94, Othman Bin Affan Street 180, <br />
+                Doha, Qatar, PO Box No:36258
+                <br /><br />
+                <strong>Phone:</strong> +974 66908915<br />
+                <strong>Phone:</strong> +974 30806490<br />
+                <strong>Email:</strong> info@al-afzahgroup.com<br />
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
               </div>
             </div>
-            <!-- End footer info column-->
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="/about.html">About us</a></li>
-                <li><a href="#services">What we offer</a></li>
-                <li><a href="#alt-services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
-              </ul>
-            </div>
-            <!-- End footer links column-->
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <a href="service-details.html#deisgn-service-details"
-                    >Deisgn & Engineering</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#electrical-system-details"
-                    >Electrical System</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#fire-system-details"
-                    >Fire Safety</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#communication-safety-details"
-                    >Communication & Security</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <!-- End footer links column-->
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <a href="service-details.html#hvax-system-details"
-                    >HVAC System</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#plumbing-drainage-details"
-                    >Plumbing & Drainage</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#civil-work-details"
-                    >Civil Works</a
-                  >
-                </li>
-                <li>
-                  <a href="service-details.html#cleaning-soft-details"
-                    >Cleaning & Soft Services</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <!-- End footer links column-->
-            <!-- End footer links column-->
           </div>
+          <!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="/about.html">About us</a></li>
+              <li><a href="#services">What we offer</a></li>
+              <li><a href="#alt-services">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </div>
+          <!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li>
+                <a href="service-details.html#deisgn-service-details"
+                  >Deisgn & Engineering</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#electrical-system-details"
+                  >Electrical System</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#fire-system-details"
+                  >Fire Safety</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#communication-safety-details"
+                  >Communication & Security</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li>
+                <a href="service-details.html#hvax-system-details"
+                  >HVAC System</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#plumbing-drainage-details"
+                  >Plumbing & Drainage</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#civil-work-details"
+                  >Civil Works</a
+                >
+              </li>
+              <li>
+                <a href="service-details.html#cleaning-soft-details"
+                  >Cleaning & Soft Services</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- End footer links column-->
+          <!-- End footer links column-->
         </div>
       </div>
+    </div>
 
-      <div class="footer-legal text-center position-relative">
-        <div class="container">
-          <div class="copyright">
-            &copy; Copyright <strong><span>AL AFZAH GROUP </span></strong>. All
-            Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-            Designed by
-            <a href="https://www.instagram.com/codecave.media.in/">CODE CAVE MEDIA</a> Developed
-            by <a href="https://www.linkedin.com/in/muhammed-irshad-81985b287/">Muhammed Irshad</a>
-          </div>
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>AL AFZAH GROUP </span></strong>. All
+          Rights Reserved
+        </div>
+        <div class="credits">
+          Developed by <a href="https://www.linkedin.com/in/muhammed-irshad-81985b287/">Muhammed Irshad</a> | Powered by <a href="https://www.instagram.com/codecave.media.in/">Code Cacve Media</a>
+
         </div>
       </div>
-    </footer>
-    <!-- End Footer -->
+    </div>
+  </footer>
+  <!-- End Footer -->
 
     <a
       href="#"
