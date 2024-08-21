@@ -2871,6 +2871,9 @@ section {
   .main-heading-div h2 {
     font-size: 1rem !important;
   }
+  .busisness-domain-ul li {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 487px) {
   .main-heading-div h2 {
